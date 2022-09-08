@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0;
+  background-color: #282D35;
+  margin: auto;
   font-family: Inter;
 }
 
@@ -12,7 +13,7 @@ nav {
   align-items: center;
   padding: 30px 25px;
   background-color: #21222A;
-    height: 90px;
+  height: 90px;
 }
 
 .nav--icon {
@@ -38,4 +39,36 @@ nav {
 .nav--icon {
   height: 30px;
   margin-right: 7px;
+}
+
+.main--container {
+  background-color: #282D35;
+  padding: 57px 27px;
+  position: absolute;
+
+}
+
+.main--title {
+  margin: 0px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  padding-top: 26px;
+  max-width: 400px;
+  height: 190px;
+}
+
+.main--facts > li {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;
 }
