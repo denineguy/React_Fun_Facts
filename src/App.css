@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: #282D35;
   margin: auto;
   font-family: Inter;
+  width: 550px;
 }
 
 nav {
@@ -43,32 +43,36 @@ nav {
 
 .main--container {
   background-color: #282D35;
+  background-image: url(./assets/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: 423px 123px;
+  color: #ffffff;
   padding: 57px 27px;
-  position: absolute;
-
+  height: 500px;
 }
 
 .main--title {
   margin: 0px;
-  font-family: Inter;
   font-weight: 700;
   font-size: 40px;
-  color: #ffffff;
   line-height: 47px;
   letter-spacing: -0.05em;
 }
 
 .main--facts {
+  height: 190px;
   padding-top: 26px;
   max-width: 400px;
-  height: 190px;
 }
 
 .main--facts > li {
-  color: #ffffff;
-  font-family: Inter;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
